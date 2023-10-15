@@ -1,0 +1,107 @@
+h1  {
+    background-color: aliceblue;
+    color:rgb(87, 117, 200);
+    text-align: center;
+    font-size: 5vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    
+
+}
+#navbar, th {
+background-color: rgb(170, 189, 223);
+border-style: solid;
+border-color: black;
+border-collapse: collapse;
+font-size: 20px;
+font-family: 'Segoe UI', Tahoma, sans-serif;
+}
+header {
+    background-color: rgba(71, 71, 203, 0.951);
+    color: whitesmoke;
+    text-align: center;
+    font-size: 50px;
+    border: 3px solid whitesmoke;
+}
+.navbar {
+    background-color: whitesmoke;
+    border: solid #000080;
+    font-size: 20px;
+    position:sticky;
+    top: 0px;
+}
+.navbar th {
+    border: solid #000080;
+    padding: 5px;
+}
+footer  {
+    background-color: #000080;
+    color: whitesmoke;
+    font-size: 12px;
+    border: 3px solid whitesmoke;
+    padding-left: 5px;
+}
+.profile    {
+    background-color: #3E92CC;
+    text-align: center;
+}
+.even-row   {
+    background-color: #5764a5;
+}
+.colorf {
+    color: aliceblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.wrapper    {
+    width: 900px;
+}
+.sidebar-left   {
+    background-color: pink;
+    float: left;
+    height: 300px;
+    width: 150px;
+}
+.content    {
+    background-color: palegreen;
+    height: 300px;
+    width: 700px;
+    float: left;
+}
+.sidebar-right  {
+    background-color: pink;
+    height: 300px;
+    width: 150px;
+    float: right;
+}
+.header {
+    background-color: paleturquoise;
+    height: 100px;
+    width: 900px;
+}
+.footer {
+    background-color:paleturquoise;
+    height: 100px;
+    width: 900px; 
+    float: right;
+}
+
+.dropdown   {
+    display: inline-block;
+}
+.dropdown-content   {
+    display: none;
+    position: absolute;
+    background-color: whitesmoke;
+    color: #000080;
+    padding: 5px;
+    box-shadow: 5px 5px 10px black;
+}
+.dropdown:hover    .dropdown-content    {
+    display: block;
+}
+.active {
+    background-color: lightcoral;
+}
+a   {
+    color: navy;
+    text-decoration: none;
+}

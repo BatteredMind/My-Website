@@ -1,0 +1,12 @@
+.profile p  {
+    background-color: purple;
+    color: white;
+} 
+h4, h3, h2  {
+    color: navy;
+    
+}
+
+.dropdown:hover .dropdown-content   {
+    display: block;
+}
